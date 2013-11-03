@@ -11,6 +11,7 @@
 ## What is Node.js and why should I care?
 
 > Lets face it nodejs is trendy. I cloned the repo & instantly found myself moustached, in a coffee shop listening 2 music that isnt even out.
+> -- <cite>[@DanEzekiel](https://twitter.com/DanEzekiel)</cite>
 
 Node.js has become hugely popular recently (and for good reason). It is a server-side platform for writing web applications in JavaScript. It's fast, scalable, fully non-blocking, and 100% pure unadulterated JS. Here are some of the reasons Node.js is getting so popular:
 
