@@ -12,7 +12,7 @@
 
 > Lets face it nodejs is trendy. I cloned the repo & instantly found myself moustached, in a coffee shop listening 2 music that isnt even out.
 >
-> -- [*@DanEzekiel*](https://twitter.com/DanEzekiel)
+> [@DanEzekiel](https://twitter.com/DanEzekiel)
 
 Node.js has become hugely popular recently (and for good reason). It is a server-side platform for writing web applications in JavaScript. It's fast, scalable, fully non-blocking, and 100% pure unadulterated JS. Here are some of the reasons Node.js is getting so popular:
 
@@ -73,21 +73,21 @@ If you want to see what the finished product should look like:
 
 	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
 
-- Learning Objectives:
+- What we'll learn:
 
-	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
+	Introduction to loading modules. How to set up a basic HTTP server. How to run a node app.
 
-#### Chapter 1: Daisy, Daisy.
+#### Chapter 2: Node is Eventful!
 
 - Branches:
 
-	`chapter1-start`
+	`chapter2-start`
 
-	`chapter1-final`
+	`chapter2-final`
 	
 - Topic:
 
-	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
+	We explore the benefits of non-blocking (asynchronous) I/O
 
 - Learning Objectives:
 
