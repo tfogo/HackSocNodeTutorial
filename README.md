@@ -48,7 +48,11 @@ Well it's pretty darn good, but there are some cases when another language is be
 
 ## How do I follow this tutorial?
 
-This tutorial is split into chapters. And each chapter has two branches in git. You can get the starting code for a chapter by checking out that chapter's starting branch. You can get the final code for a chapter by checking out that chapter's final branch. If you want to follow along with chapter2:
+You should start by cloning this repository:
+
+	git clone git@github.com:TimFogarty/HackSocNodeTutorial.git
+
+This tutorial is split into chapters. And each chapter has two branches in git. You can get the starting code for a chapter by checking out that chapter's starting branch. You can get the final code for a chapter by checking out that chapter's final branch. For example, if you want to follow along with chapter2:
 
 	git checkout chapter2-start
 
