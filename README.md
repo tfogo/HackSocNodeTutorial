@@ -40,6 +40,8 @@ Node.js has become hugely popular recently (and for good reason). It is a server
 
 	Once you get the hang of it, It's quick and easy to set up an app using Node. This makes it great for hackathons.
 
+Want more details on why you should be excited? Check out these Quora topics [here](http://www.quora.com/Node-js/Why-is-Node-js-becoming-so-popular) and [here](http://www.quora.com/Why-choose-Node-js-for-web-applications).
+
 ## How do I follow this tutorial?
 
 This tutorial is split into chapters. And each chapter has two branches in git. You can get the starting code for a chapter by checking out that chapter's starting branch. You can get the final code for a chapter by checking out that chapter's final branch. If you want to follow along with chapter2:
