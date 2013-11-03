@@ -34,9 +34,13 @@ If you want to see what the finished product should look like:
 #### Chapter 1
 
 - Branches:
+
 	`chapter1-start`
+
 	`chapter1-final`
+	
 - Topic:
+
 	We set up a simple HTTP server using Node's built in `http` package and serve "Hello world!" to the browser.
 
 ## What software do I need to install?
