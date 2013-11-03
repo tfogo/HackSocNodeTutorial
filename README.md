@@ -30,7 +30,7 @@ Node.js has become hugely popular recently (and for good reason). It is a server
 
 - **It's in JavaScript.**
 
-	Every web developer knows JavaScript, so it's easy for people to get on board. Using JavaScript in the back end means it's possible to use a full JS stack. No more switching between languages, everything's in JavaScript. JavaScript's event-driven style is perfect for building non-blocking apps. It also has first-class functions, closures, dynamic typing, and JSON - all pretty awesome things.
+	Every web developer knows JavaScript, so it's easy for people to get on board. Using JavaScript in the back end means it's possible to use a full JS stack (e.g. the [MEAN stack](http://www.mean.io/)). No more switching between languages, everything's in JavaScript. JavaScript's event-driven style is perfect for building non-blocking apps. It also has first-class functions, closures, dynamic typing, and JSON - all pretty awesome things.
 
 - **It has fantastic packages and a great community.**
 
