@@ -3,8 +3,7 @@ Tim's Node.js Tutorial for HackSoc, University of Nottingham
 
 My Node.js template with Bootstrap 3.
 
-Prerequisites
--------------
+## Prerequisites
 
 - Node.js
 - Foreman
@@ -47,6 +46,10 @@ Using [macports](http://www.macports.org/):
 ### Windows
 
 Simply [download Windows Installer](http://nodejs.org/#download).
+
+### Other Systems and Building from Source
+
+Installation instructions for other systems can be found [here](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager). You can find instructions on building from source [here](https://github.com/joyent/node/wiki/Installation).
 
 Set up
 ------
