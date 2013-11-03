@@ -18,15 +18,15 @@ Node.js has become hugely popular recently (and for good reason). It is a server
 
 - **It's fast.**
 
-	Node is built on [Google's V8 Engine](http://code.google.com/p/v8/). Google made this lightning fast VM because they wanted to [improve JavaScript in Chrome](http://blogoscoped.com/google-chrome/). It is written in C++ and as a result Node is very fast, smashing Python and Ruby.
+	Node is built on [Google's V8 Engine](http://code.google.com/p/v8/). Google made this lightning fast VM because they wanted to [improve JavaScript in Chrome](http://blogoscoped.com/google-chrome/). It is written in C++ and as a result Node is very fast, smashing [Python](http://benchmarksgame.alioth.debian.org/u32/which-programs-are-fastest.php?), [Ruby](http://www.techempower.com/benchmarks/), and (obviously) [PHP](http://jaxbot.me/articles/benchmarks_nodejs_vs_go_vs_php_3_14_2013).
 
 - **It's non-blocking.**
 
-	Non-blocking I/O means that Node is perfect for real-time applications like games, chat servers, news streams. Non-blocking I/O makes your app faster and more scalable. Python and Ruby have libraries for non-blocking I/O (twisted and EventMachine) but blocking libraries can clash with these. Node is entirely non-blocking from the ground up. And all of its packages are non-blocking too. 
+	[Non-blocking I/O](http://en.wikipedia.org/wiki/Asynchronous_I/O) means that Node is perfect for real-time applications like games, chat servers, news streams. Non-blocking I/O makes your app faster and more scalable. Python and Ruby both have libraries for non-blocking I/O ([Twisted](http://twistedmatrix.com/trac/) and [EventMachine](https://github.com/eventmachine/eventmachine) respectively) but their blocking libraries can clash with them. Node is entirely non-blocking from the ground up. And all of its packages are non-blocking too. 
 
 - **It's scalable.**
 
-	The non-blocking nature means Node can easily handle many connections at once. 
+	The non-blocking nature means Node can easily handle [many connections at once](http://blog.caustik.com/2012/08/19/node-js-w1m-concurrent-connections/). 
 
 - **It's in JavaScript.**
 
