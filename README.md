@@ -18,7 +18,7 @@ Node.js has become hugely popular recently (and for good reason). It is a server
 
 - **It's fast.**
 
-	Node is built on [Google's V8 Engine](http://code.google.com/p/v8/). Google made this lightning fast VM because they wanted to [improve JavaScript in Chrome](http://blogoscoped.com/google-chrome/). It is written in C++ and as a result Node is very fast, smashing [Python](http://benchmarksgame.alioth.debian.org/u32/which-programs-are-fastest.php?), [Ruby](http://www.techempower.com/benchmarks/), and (obviously) [PHP](http://jaxbot.me/articles/benchmarks_nodejs_vs_go_vs_php_3_14_2013).
+	Node is built on [Google's V8 Engine](http://code.google.com/p/v8/). Google made this lightning fast VM because they wanted to [improve JavaScript in Chrome](http://blogoscoped.com/google-chrome/). It is written in C++ and as a result Node is very fast, smashing [Python](http://benchmarksgame.alioth.debian.org/u32/which-programs-are-fastest.php?), [Ruby](http://www.techempower.com/benchmarks/), and (of course) [PHP](http://jaxbot.me/articles/benchmarks_nodejs_vs_go_vs_php_3_14_2013).
 
 - **It's non-blocking.**
 
@@ -41,6 +41,10 @@ Node.js has become hugely popular recently (and for good reason). It is a server
 	Once you get the hang of it, It's quick and easy to set up an app using Node. This makes it great for hackathons.
 
 Want more details on why you should be excited? Check out these Quora topics [here](http://www.quora.com/Node-js/Why-is-Node-js-becoming-so-popular) and [here](http://www.quora.com/Why-choose-Node-js-for-web-applications).
+
+### So Node.js is the best?
+
+Well it's pretty darn good, but there are some cases when another language is better suited to your purposes. If you aren't doing much I/O but you are doing a lot of server-side processing, perhaps C++ might suit better. But Node.js can easily spawn child processes so you could always use Node to spawn some C code if necessary.
 
 ## How do I follow this tutorial?
 
