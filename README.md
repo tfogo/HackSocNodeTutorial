@@ -1,9 +1,45 @@
-Tim's Node.js Tutorial for HackSoc, University of Nottingham
-============================================================
+# Hipster Development with Node.js
 
-My Node.js template with Bootstrap 3.
+## Contents
 
-## Prerequisites
+- What is Node.js and why should I care?
+- How do I follow this tutorial?
+- What software do I need to install?
+- Cool. How do install that exactly?
+- I'm completely new to programming, help?
+
+## What is Node.js and why should I care?
+
+## How do I follow this tutorial?
+
+This tutorial is split into chapters. And Each chapter has two branches in git. You can get the starting code for a chapter by checking out that chapter's starting branch. You can get the final code for a chapter by checking out that chapter's final branch. If you want to follow along with chapter2:
+
+	git checkout chapter2-start
+
+Then you can follow along and make changes to this branch. Feel free to commit your changes:
+
+	git add .
+	git commit -m "My commit message"
+
+or discard them:
+
+	git checkout -- .
+
+If you want to see what the finished product should look like:
+
+	git checkout chapter2-final
+
+### List of Chapters
+
+#### Chapter 1
+
+- Branches:
+  `chapter1-start`
+  `chapter1-final`
+- Topic:
+  We set up a simple HTTP server using Node's built in `http` package and serve "Hello world!" to the browser.
+
+## What software do I need to install?
 
 - Node.js
 - Foreman
@@ -13,7 +49,7 @@ My Node.js template with Bootstrap 3.
 - MySQL
 - PostreSQL
 
-## Installing Node
+## Cool. How do install that exactly?
 
 ### Ubuntu
 
