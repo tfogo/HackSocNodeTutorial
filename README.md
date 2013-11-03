@@ -12,7 +12,7 @@
 
 ## How do I follow this tutorial?
 
-This tutorial is split into chapters. And Each chapter has two branches in git. You can get the starting code for a chapter by checking out that chapter's starting branch. You can get the final code for a chapter by checking out that chapter's final branch. If you want to follow along with chapter2:
+This tutorial is split into chapters. And each chapter has two branches in git. You can get the starting code for a chapter by checking out that chapter's starting branch. You can get the final code for a chapter by checking out that chapter's final branch. If you want to follow along with chapter2:
 
 	git checkout chapter2-start
 
@@ -31,7 +31,7 @@ If you want to see what the finished product should look like:
 
 ### List of Chapters
 
-#### Chapter 1
+#### Chapter 1: Daisy, Daisy.
 
 - Branches:
 
@@ -41,7 +41,59 @@ If you want to see what the finished product should look like:
 	
 - Topic:
 
-	We set up a simple HTTP server using Node's built in `http` package and serve "Hello world!" to the browser.
+	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
+
+- Learning Objectives:
+
+	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
+
+#### Chapter 1: Daisy, Daisy.
+
+- Branches:
+
+	`chapter1-start`
+
+	`chapter1-final`
+	
+- Topic:
+
+	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
+
+- Learning Objectives:
+
+	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
+
+#### Chapter 1: Daisy, Daisy.
+
+- Branches:
+
+	`chapter1-start`
+
+	`chapter1-final`
+	
+- Topic:
+
+	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
+
+- Learning Objectives:
+
+	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
+
+#### Chapter 1: Daisy, Daisy.
+
+- Branches:
+
+	`chapter1-start`
+
+	`chapter1-final`
+	
+- Topic:
+
+	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
+
+- Learning Objectives:
+
+	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
 
 ## What software do I need to install?
 
@@ -90,10 +142,4 @@ Simply [download Windows Installer](http://nodejs.org/#download).
 ### Other Systems and Building from Source
 
 Installation instructions for other systems can be found [here](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager). You can find instructions on building from source [here](https://github.com/joyent/node/wiki/Installation).
-
-Set up
-------
-
-Run app.js with node.
-
 
