@@ -14,7 +14,24 @@ Prerequisites
 - MySQL
 - PostreSQL
 
-## OSX
+## Installing Node
+
+### Ubuntu
+
+You should add Chris Lea's repository then install `nodejs` using apt. Example install:
+
+    sudo apt-get update
+    sudo apt-get install -y python-software-properties python g++ make
+    sudo add-apt-repository -y ppa:chris-lea/node.js
+    sudo apt-get update
+    sudo apt-get install nodejs
+	ln -s /usr/bin/nodejs /usr/bin/node
+
+This will install the current stable Node. Quantal (12.10) users may need to install the *software-properties-common* package for the `add-apt-repository` command to work: `sudo apt-get install software-properties-common`
+
+There is a naming conflict with the node package (Amateur Packet Radio Node Program), and the nodejs binary has been renamed from `node` to `nodejs`. You'll need to symlink `/usr/bin/node` to `/usr/bin/nodejs` (`ln -s /usr/bin/nodejs /usr/bin/node`) or you could first uninstall the Amateur Packet Radio Node Program to avoid that conflict (`sudo apt-get --purge remove node`).
+
+### OSX
 Using [a package](http://nodejs.org/#download)
 
 > Simply [download Macintosh Installer](http://nodejs.org/#download).
@@ -27,36 +44,9 @@ Using [macports](http://www.macports.org/):
 
     port install nodejs  
 
-## Windows
-Using [a package](http://nodejs.org/#download)
+### Windows
 
-> Simply [download Windows Installer](http://nodejs.org/#download).
-
-Using [chocolatey](http://chocolatey.org) to install [Node](http://chocolatey.org/packages/nodejs):  
-
-    cinst nodejs  
-
-or for [full install with NPM](http://chocolatey.org/packages/nodejs.install):  
-
-    cinst nodejs.install
-
-## Ubuntu
-
-Obtaining a recent version of Node or installing on older Ubuntu and other apt-based distributions may require a few extra steps. Example install:
-
-    sudo apt-get update
-    sudo apt-get install -y python-software-properties python g++ make
-    sudo add-apt-repository -y ppa:chris-lea/node.js
-    sudo apt-get update
-    sudo apt-get install nodejs
-
-It installs current stable Node on the current stable Ubuntu. Quantal (12.10) users may need to install the *software-properties-common* package for the `add-apt-repository` command to work: `sudo apt-get install software-properties-common`
-
-As of Node.js v0.10.0, the nodejs package from [Chris Lea](https://chrislea.com/2013/03/15/upgrading-from-node-js-0-8-x-to-0-10-0-from-my-ppa/)'s repo includes both npm and nodejs-dev.
-
-There is a naming conflict with the node package (Amateur Packet Radio Node Program), and the nodejs binary has been renamed from `node` to `nodejs`. You'll need to symlink `/usr/bin/node` to `/usr/bin/nodejs` (run `ln -s /usr/bin/node /usr/bin/nodejs`) or you could uninstall the Amateur Packet Radio Node Program to avoid that conflict.
-
-
+Simply [download Windows Installer](http://nodejs.org/#download).
 
 Set up
 ------
