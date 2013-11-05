@@ -1,3 +1,4 @@
 exports.index = function(req, res){
-    res.sendfile(__dirname + "/public/views/index.html");
+    res.render("index");
+    //res.sendfile(__dirname + "/views/index.html")
 }
