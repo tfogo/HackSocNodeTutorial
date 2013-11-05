@@ -87,7 +87,7 @@ If you want to see what the finished product should look like:
 
 	Introduction to loading modules. How to set up a basic HTTP server. How to run a node app.
 
-#### Chapter 2: Node is Eventful!
+#### Chapter 2: This isn't Minecraft.
 
 - Branches:
 
@@ -97,43 +97,59 @@ If you want to see what the finished product should look like:
 	
 - Topic:
 
-	We explore the benefits of non-blocking (asynchronous) I/O
+	We explore the benefits of non-blocking (asynchronous) I/O.
 
-- Learning Objectives:
+- What we'll learn:
 
-	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
+	How callbacks work. The event loop.
 
-#### Chapter 1: Daisy, Daisy.
-
-- Branches:
-
-	`chapter1-start`
-
-	`chapter1-final`
-	
-- Topic:
-
-	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
-
-- Learning Objectives:
-
-	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
-
-#### Chapter 1: Daisy, Daisy.
+#### Chapter 3: All Onboard the Node Express.
 
 - Branches:
 
-	`chapter1-start`
+	`chapter3-start`
 
-	`chapter1-final`
+	`chapter3-final`
 	
 - Topic:
 
-	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
+	Using the Express.js framework, we set up routes and serve static files.
+
+- What we'll learn:
+
+	Exporting and requiring our own modules. Setting up Express. Serving static files. Serving html.
+
+#### Chapter 4: <% include template %>
+
+- Branches:
+
+	`chapter4-start`
+
+	`chapter4-final`
+	
+- Topic:
+
+	We look at using ejs with Node. But Node can use pretty much any templating engine: Jade, mustache, etc.
 
 - Learning Objectives:
 
-	We set up a simple HTTP server using Node's built in `http` module and teach it to sing us a song.
+	Rendering templates. Passing variables to templates.
+
+#### Chapter 5: Plug in Baby.
+
+- Branches:
+
+	`chapter5-start`
+
+	`chapter5-final`
+	
+- Topic:
+
+	We use sockets.io to create a web app for the European Space Agency.
+
+- Learning Objectives:
+
+	Rendering templates. Passing variables to templates.
 
 ## What software do I need to install?
 
