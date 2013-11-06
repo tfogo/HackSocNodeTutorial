@@ -44,7 +44,6 @@ io.sockets.on('connection', function(client) {
 	    if (err) {
 		console.log("Error!");
 	    } else {
-		console.log(messages);
 		client.emit('previous messages', messages);
 		client.emit('active users', users)
 	    }
