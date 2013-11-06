@@ -8,7 +8,7 @@ This is a taster of Node.js. It doesn't include everything you need to know, but
 - [How do I follow this tutorial?](#how-do-i-follow-this-tutorial)
 - [What software do I need to install?](#what-software-do-i-need-to-install)
 - [Cool. How do I install that exactly?](#cool-how-do-i-install-that-exactly)
-- [How can I learn more about Node?](#how-can-i-learn-more-node)
+- [How can I learn more about Node?](#how-can-i-learn-more-about-node)
 
 ## What is Node.js and why should I care?
 
