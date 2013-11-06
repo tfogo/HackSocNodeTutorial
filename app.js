@@ -9,7 +9,7 @@ var express = require('express')
 , routes = require('./routes');
 
 var uristring =  
-process.env.MONGOHQ_URL || 
+process.env.MONGOLAB_URI || 
 'mongodb://localhost/node9000';
 
 app.set('view engine', 'ejs');
