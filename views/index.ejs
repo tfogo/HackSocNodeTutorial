@@ -1,8 +1,21 @@
 <% include header.ejs %>
 
-<hr>
-<div class="jumbotron">
-      <h1>Hello!</h1>
+<h1 style="float:left; margin-top:30px">Node 9000 Messaging System</h1>
+<img src="http://www.esa.int/esalogo/images/downloads/Logo_Fingerprint/Office_presentation/03_logo_dark_blue.bmp" style="float:right;height:100px" />
+<div style="clear:both"></div>
+
+<div class="row">
+  <div class="col-md-2">.col-md-1</div>
+  <div class="col-md-10">
+    <div id="messages-pane" style="height:400px;overflow:auto;"></div>
+    <form id="chat-form" role="form">
+      <div id="message-box" class="form-group">
+	<input id="chat-input" type="text" class="form-control" placeholder="Text input">
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Send</button>
+    </form>
+    
+  </div>
 </div>
 
 <% include footer.ejs %>
