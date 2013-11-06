@@ -19,8 +19,15 @@ io = socket.listen(server);
 
 io.sockets.on('connection', function(client) {
     console.log('Client connected...');
+
+    client.on('join', function(name){
+	client.set('nickname', name);
+    });
+    
     client.on('messages', function(data){
-    	console.log(data);
-	client.broadcast.emit('new message', data)
+	client.get('nickname', function(err, name){
+	    client.broadcast.emit('new message', name + ": " + data);
+	});
+	
     });
 });
