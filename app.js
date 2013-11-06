@@ -22,6 +22,7 @@ io.sockets.on('connection', function(client) {
 
     client.on('join', function(name){
 	client.set('nickname', name);
+	client.broadcast.emit('new message', name + " joined the chat");
     });
     
     client.on('messages', function(data){
