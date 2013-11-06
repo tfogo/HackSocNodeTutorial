@@ -149,7 +149,7 @@ If you want to see what the finished product should look like:
 
 	How to set up socket.io. How to emit events and listen for them using sockets.
 
-#### Chapter 6: Survive.
+#### Chapter 6: This chapter should really have databases in it. meh.
 
 - Branches:
 
@@ -163,7 +163,7 @@ If you want to see what the finished product should look like:
 
 - We'll learn:
 
-	How to persist data.
+	How to save data on client and server.
 
 #### Chapter 7: Heroku.
 
@@ -244,4 +244,10 @@ Installation instructions for other systems can be found [here](https://github.c
 
 `sudo npm install -g nodemon`
 
-##
+## How can I learn more about node?
+
+- [Art of Node](https://github.com/maxogden/art-of-node)
+- [Learn You the Node.js for Much Win](https://github.com/rvagg/learnyounode#learn-you-the-nodejs-for-much-win)
+- [Stream Adventure](https://github.com/substack/stream-adventure)
+- [The Node Beginner Book](http://www.nodebeginner.org/)
+- Look at other people's apps no GitHub.
