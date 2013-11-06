@@ -250,4 +250,4 @@ Installation instructions for other systems can be found [here](https://github.c
 - [Learn You the Node.js for Much Win](https://github.com/rvagg/learnyounode#learn-you-the-nodejs-for-much-win)
 - [Stream Adventure](https://github.com/substack/stream-adventure)
 - [The Node Beginner Book](http://www.nodebeginner.org/)
-- Look at other people's apps no GitHub.
+- Look at other people's apps on GitHub.
