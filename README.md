@@ -46,7 +46,7 @@ Want more details on why you should be excited? Check out these Quora topics [he
 
 ## How do I follow this tutorial?
 
-You should start by cloning this repository:
+You can just watch me code. If you want to follow along, you should start by cloning this repository:
 
 	git clone git@github.com:TimFogarty/HackSocNodeTutorial.git
 
