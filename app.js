@@ -41,7 +41,7 @@ io.sockets.on('connection', function(client) {
 	name = sanitize(name).escape();
 	users.push(name);
 	io.sockets.emit('new message', name + " joined the chat");
-	io.sockets.emit('new user', name);
+	client.broadcast.emit('new user', name);
 	Message.find(function(err, messages){
 	    if (err) {
 		console.log("Error!");
