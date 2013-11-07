@@ -6,6 +6,7 @@ var express = require('express')
 , models = require('./models')
 , Message = mongoose.model('Message')
 , users = []
+, sanitize = require('validator').sanitize
 , routes = require('./routes');
 
 var uristring =  
@@ -37,9 +38,10 @@ io.sockets.on('connection', function(client) {
 
     client.on('join', function(name){
 	client.set('nickname', name);
+	name = sanitize(name).escape();
 	users.push(name);
-	client.broadcast.emit('new message', name + " joined the chat");
-	client.broadcast.emit('new user', name);
+	io.sockets.emit('new message', name + " joined the chat");
+	io.sockets.emit('new user', name);
 	Message.find(function(err, messages){
 	    if (err) {
 		console.log("Error!");
@@ -52,17 +54,20 @@ io.sockets.on('connection', function(client) {
     
     client.on('messages', function(data){
 	client.get('nickname', function(err, name){
+	    name = sanitize(name).escape();
+	    data = sanitize(data).escape();
 	    var m1 = new Message({name: name, message: data});
 	    m1.save(function (err) {
 		if (err) console.log('save error');
 	    });
-	    client.broadcast.emit('new message', name + ": " + data);
+	    io.sockets.emit('new message', name + ": " + data);
 	});
     });
 
     client.on('disconnect', function(name){
 	client.get('nickname', function(err, name){
-	    client.broadcast.emit('remove user', name);
+	    name = sanitize(name).escape();
+	    io.sockets.emit('remove user', name);
 	    for(var i = 0; i < users.length; i++) {
 		if(users[i] === name) {
 		    users.splice(i, 1);
